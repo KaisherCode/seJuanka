@@ -9,7 +9,7 @@ const Navbar = () => {
             <li className=" hover:text-indigo-500 "><a href="#home">Home</a></li>
             <li className=" hover:text-indigo-500 "><a href="#about">About</a></li>
             <li className=" hover:text-indigo-500 "><a href="#skills">Skills</a></li>
-            <li className=" hover:text-indigo-500 "><a href="#projects">Projects</a></li>
+            <li className=" hover:text-indigo-500 "><a href="#project">Projects</a></li>
         </ul>
         <ul className='flex justify-center items-center gap-4'>
             <button><img src={moon} alt="" /></button>

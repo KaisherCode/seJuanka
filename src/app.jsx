@@ -2,6 +2,7 @@ import { Navbar } from './Components/Navbar'
 import { Home } from './Components/Home'
 import { About } from './Components/About'
 import { Skills } from './Components/Skills'
+import { Project } from './Components/Project'
 import './app.css'
 
 export function App() {
@@ -12,6 +13,7 @@ export function App() {
       <Home/>
       <About/>
       <Skills/>
+      <Project/>
     </div>
   )
 }
