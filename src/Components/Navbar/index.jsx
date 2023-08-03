@@ -1,9 +1,9 @@
 import moon from '../../assets/moon.svg'
 const Navbar = () => {
     return (
-    <nav className=" flex w-full justify-between items-center p-5 border-b-2 top-0 fixed">
+    <nav className=" flex w-full justify-between items-center p-5 border-b-2 top-0 fixed z-10 bg-slate-100">
         <ul>
-            <li className=" font-bold text-2xl ">Kaisher Code</li>
+            <li className=" font-bold text-2xl "><a href="#home">Kaisher Code</a></li>
         </ul>
         <ul className="flex gap-8 font-semibold text-lg">
             <li className=" hover:text-indigo-500 "><a href="#home">Home</a></li>
