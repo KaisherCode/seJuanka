@@ -1,8 +1,8 @@
 import {FaCss3, FaHtml5,FaPython,FaJs,FaReact,FaGit,FaGithub,FaNode} from 'react-icons/fa'
 const Skills = () => {
   return (
-    <div id='skills' className='flex flex-col justify-evenly items-center'>
-      <h1 className="  text-center font-bold text-3xl pt-16 mb-4 text-indigo-500 ">My Skills</h1>
+    <div id='skills' className='flex flex-col justify-evenly items-center dark:text-white'>
+      <h1 className="  text-center font-bold text-2xl pt-16 mb-4 ">My Skills</h1>
       <p className=" text-center font-light text-2xl mb-4 ">Working code using languages: JavaScript, HTML, CSS, MySql, Postgres AND Python</p>
       <div className='grid gap-4 grid-cols-4 w-full max-w-screen-lg mb-10'>
         <div className="bg-white cursor-pointer w-full h-50 rounded-lg shadow-2xl border-2 hover:border-indigo-500">

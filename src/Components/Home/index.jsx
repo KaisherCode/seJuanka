@@ -4,7 +4,7 @@ import home from '../../assets/image-home.png'
 
 const Home = ({ name, title,linkedIn }) => {
   return (
-    <section id="home" className=" min-h-screen flex justify-evenly items-center">
+    <section id="home" className=" min-h-screen flex justify-evenly items-center dark:text-white">
       <div className=" abolute ">
         <h1 className="mb-4 font-bold text-3xl">Hello everyone!</h1>
         <h2 className="mb-4">My name is <span className=" font-semibold text-lg text-red-400">{name}</span>, {title}</h2>

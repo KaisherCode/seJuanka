@@ -1,14 +1,14 @@
 
 const About = () => {
   return (
-    <section id="about" className=" pl-52 pr-52 flex justify-evenly items-center relative w-screen">
+    <section id="about" className=" dark:text-white pl-52 pr-52 flex justify-evenly items-center relative w-screen">
       <div className=" border-2 rounded-lg p-16 ">
         <div className="p-16">
-        <h2 className=" text-center font-bold text-3xl pt-0 mb-6 ">About Myself</h2>
+        <h2 className=" text-center font-bold text-2xl pt-0 mb-6 ">About Myself</h2>
         <p className=" text-3xl font-light text-center mb-4">I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways. </p>
         </div>
         <hr />
-        <ul className="grid grid-cols-2 mb-4 text-center p-16">
+        <ul className="grid grid-cols-2 mb-4 gap-6 p-2 pr-10 pl-10">
           <li>
             <a href="">Web design</a>
           </li>
