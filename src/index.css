@@ -9,3 +9,7 @@
     --cuaternary-color:#e1e5f2;
     --white-color:#fff;
 }
+
+body{
+    overflow-x: hidden;
+}

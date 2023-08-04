@@ -20,7 +20,7 @@ tiktok: "KaisherCode",
 export function App() {
 
   return (
-    <div id='main' className=' w-screen'>
+    <div id='main' className=' w-screen '>
       <Navbar />
       <Home name={siteProps.name} title={siteProps.title} linkedIn={siteProps.linkedIn} />
       <About />
