@@ -9,11 +9,10 @@ import './app.css'
 const siteProps = {
 name:"Kaisher Code",
 title:"I'm Full Stack Developer",
-email:"web@hynkor.com",
-github:"@KaisherCode",
-instagram: "@Kaishercode",
-linkedIn: "https://www.linkedin.com/in/freddy-wilson-h-1788289b",
-twitter: "@KaisherCode",
+email:"wilson.hch@hynkor.com",
+github:"KaisherCode",
+linkedIn: "freddy-wilson-h-1788289b",
+twitter: "https://twitter.com/KaisherCode?t=tBu3OU2HtPPAu8qDRnCKXA&s=09",
 tiktok: "KaisherCode",
 }
 
@@ -26,7 +25,12 @@ export function App() {
       <About />
       <Skills />
       <Project />
-      <Footer />
+      <Footer
+        name={siteProps.name}
+        email={siteProps.email}
+        github={siteProps.github}
+        linkedIn={siteProps.linkedIn}
+        />
     </div>
   )
 }
