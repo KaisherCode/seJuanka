@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { TabBar } from '../TabBar'
 import {HiMoon} from 'react-icons/hi'
 import '../../index.css'
 const Navbar = () => {
@@ -26,7 +27,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="dark:bg-slate-800 bg-slate-50 text-slate-800 dark:text-slate-200 flex w-full justify-between items-center p-5 border-b-2 top-0 fixed z-10">
+    <>
+    <nav className=" hidden dark:bg-slate-800 bg-slate-50 text-slate-800 dark:text-slate-200 lg:flex w-full justify-between items-center p-5 border-b-2 top-0 fixed z-10">
       <ul>
         <li className=" font-bold text-2xl "><a href="#home">Kaisher Code</a></li>
       </ul>
@@ -43,6 +45,8 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
+    <TabBar/>
+    </>
   )
 }
 export { Navbar }
