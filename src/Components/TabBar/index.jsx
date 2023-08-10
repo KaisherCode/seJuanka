@@ -1,12 +1,37 @@
+import { useState, useEffect } from 'react'
 import {HiHome, HiMoon,HiUserGroup,HiPaperAirplane,HiLightBulb} from 'react-icons/hi'
+
 const TabBar = () => {
+  const [theme, setTheme] = useState(null)
+
+  useEffect(() => {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme('dark');
+    }
+    else {
+      setTheme('light');
+    }
+  }, [])
+
+  useEffect(()=>{
+    if (theme === 'dark'){
+      document.documentElement.classList.add("dark")
+    } else{
+      document.documentElement.classList.remove("dark")
+    }
+  },[theme])
+
+  const handleThemeSwitch =()=>{
+    setTheme(theme==="dark"? "ligth":"dark")
+  }
+
   return (
-      <div className='flex justify-center items-center space-x-10 pl-16 pr-16 bg-gray-800 text-white h-16 fixed p-4 bottom-0  lg:hidden '>
-        <a href=""><HiHome/></a>
-        <a href=""><HiUserGroup/></a>
-        <a href=""><HiLightBulb/></a>
-        <a href=""><HiPaperAirplane/></a>
-        <a href=""><HiMoon/></a>
+      <div className='w-full h-16 fixed flex justify-center items-center space-x-10 pl-16 pr-16 bg-gray-800 text-white p-4 bottom-0  lg:hidden z-10 '>
+        <a href="#home"><HiHome/></a>
+        <a href="#about"><HiUserGroup/></a>
+        <a href="#skills"><HiLightBulb/></a>
+        <a href="#project"><HiPaperAirplane/></a>
+        <button onClick={handleThemeSwitch}><HiMoon className='w-6 h-6'/></button>
       </div>
     )
 }

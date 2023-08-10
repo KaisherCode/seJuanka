@@ -42,7 +42,7 @@ const Project = () => {
   return (
     <section id="project" className="flex flex-col justify-evenly items-center dark:text-white mb-16 ">
       <h2 className="text-center font-bold text-2xl pt-16 mb-4">Projects Portfolio</h2>
-      <div className="grid grid-cols-3 gap-10 p-6 max-w-screen-lg  ">
+      <div className="grid lg:grid-cols-3 gap-10 p-6 max-w-screen-lg  ">
         {projectlist.map((project) => (
           <div className=" rounded-lg border shadow-xl hover:border-indigo-500" key={project.title}>
             <div className=" text-center p-4 flex flex-col">

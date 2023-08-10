@@ -8,10 +8,10 @@ const Footer = (props) => {
     linkedIn,
   } = props
   return (
-    <footer id='contact' className=" w-screen flex justify-evenly p-16 bg-slate-500 text-white">
-      <h2 className=' font-bold text-2xl '>{name}</h2>
-      <p className=' font-light text-lg'> All rights reserved Kaisher Code</p>
-      <div className="flex gap-3">
+    <footer id='contact' className=" w-screen lg:flex lg:justify-evenly p-16 bg-slate-500 text-white text-center ">
+      <h2 className=' font-bold text-2xl mb-4 '>{name}</h2>
+      <p className=' font-light text-lg mb-4'> All rights reserved Kaisher Code</p>
+      <div className="flex gap-3 items-center justify-center mb-10">
         {(
           <a href={`mailto:${email}`}>
             <HiOutlineMail className='w-8 h-8' />
