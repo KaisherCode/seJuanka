@@ -4,11 +4,11 @@ const detailOrQuote = "Learning new things always excites me, and I am constantl
 const About = () => {
   return (
     <section id="about" className=" dark:text-white lg:pl-32 lg:pr-32 flex justify-center items-center m-6 ">
-      <div className='border border-indigo-400 shadow-lg flex justify-evenly items-center p-4 rounded-md '>
+      <div className='lg:border border-indigo-400 lg:shadow-lg lg:flex justify-evenly items-center p-4 lg:rounded-md '>
         <img className='w-96 h-96 border-2 border-dotted border-indigo-400 shadow-xl rounded-lg' src={home} alt="Imgen sobre mí" />
 
-        <div className="  lg:p-16 p-8  ">
-          <h2 className=" font-bold text-2xl mb-6 ">About Myself</h2>
+        <div className="  lg:p-16  ">
+          <h2 className=" font-bold text-2xl mb-6 mt-6 ">About Myself</h2>
           <p className=" text-xl font-light">{description}</p>
           <p className="  font-light text-xl">
             {detailOrQuote}
