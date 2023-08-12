@@ -37,7 +37,7 @@ const Skills = () => {
   return (
     <section id='skills' className='flex flex-col justify-evenly items-center dark:text-white'>
       <h2 className="  text-center font-bold text-2xl pt-16 mb-4 m-6">My Skills</h2>
-      <p className=" text-center font-light text-2xl mb-4 m-6">Working code using languages: HTML, CSS, JavaScript, React.js, Node.js, GitHub, MySql and Git</p>
+      <p className=" text-center font-light text-xl mb-4 m-6">Working code using languages: HTML, CSS, JavaScript, React.js, Node.js, GitHub, MySql and Git</p>
       <div className='grid gap-4 lg:grid-cols-4 grid-cols-2 w-auto max-w-screen-lg mb-10 m-6'>
       {skillList.map((skill) => (
         <div className=" cursor-pointer w-full h-50 rounded-lg shadow-2xl border hover:border-indigo-500">
