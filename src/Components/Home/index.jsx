@@ -9,8 +9,8 @@ const Home = ({ name, title, linkedIn }) => {
         <h1 className="lg:mb-4 font-bold text-3xl text-center">Hello everyone!</h1>
         <h2 className="mb-4 " >My name is <span className=" font-semibold text-lg text-red-400">{name}</span>, {title}</h2>
         <div className="flex gap-2 ">
-          <a href={white_papper} download className="p-2 border-2 border-indigo-500 rounded-lg hover:bg-red-400 flex gap-2 justify-evenly items-center " ><FaArrowCircleDown />Download CV</a>
-          <a href={linkedIn} target='_blank' className="p-2 border-2 border-indigo-500 rounded-lg hover:bg-red-400 flex gap-2 justify-evenly items-center ">LinkedIn<FaLinkedin /></a>
+          <a href={white_papper} download className="p-2 border border-indigo-400 rounded-lg dark:border-yellow-50 flex gap-2 justify-evenly items-center hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% " ><FaArrowCircleDown />Download CV</a>
+          <a href={linkedIn} target='_blank' className="p-2 border border-indigo-400 rounded-lg dark:border-yellow-50 flex gap-2 justify-evenly items-center hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">LinkedIn<FaLinkedin /></a>
         </div>
       </div>
       <img className="w-96 h-96 rounded-full" src={home} alt="" />
