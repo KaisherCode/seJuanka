@@ -1,17 +1,22 @@
-
+import home from '../../assets/image-home.png'
 const description = "I am a professional in Computer Science and Informatics. I like to build attractive applications and websites both backend and frontend, using Javascript, TailwindCss, React.js/Next.js and Node. I am also familiar with graphic design for creating logos and icons using Adobe Illustrator."
 const detailOrQuote = "Learning new things always excites me, and I am constantly looking for new challenges to expand my knowledge and skills."
 const About = () => {
   return (
-    <section id="about" className=" dark:text-white lg:pl-52 lg:pr-52 flex justify-evenly m-6 ">
-      <div className=" border border-indigo-500 rounded-lg lg:p-16 p-8 text-center ">
-        <h2 className=" font-bold text-2xl mb-6 text-center ">About Myself</h2>
-        <p className=" text-2xl font-light">{description}</p>
-        <p className="  font-light text-2xl">
-          {detailOrQuote}
-        </p>
+    <section id="about" className=" dark:text-white lg:pl-32 lg:pr-32 flex justify-center items-center m-6 ">
+      <div className='border border-indigo-400 shadow-lg flex justify-evenly items-center p-4 rounded-md '>
+        <img className='w-96 h-96 border-2 border-dotted border-indigo-400 shadow-xl rounded-lg' src={home} alt="Imgen sobre mí" />
+
+        <div className="  lg:p-16 p-8  ">
+          <h2 className=" font-bold text-2xl mb-6 ">About Myself</h2>
+          <p className=" text-xl font-light">{description}</p>
+          <p className="  font-light text-xl">
+            {detailOrQuote}
+          </p>
+        </div>
       </div>
+
     </section>
   )
-} 
+}
 export { About }
