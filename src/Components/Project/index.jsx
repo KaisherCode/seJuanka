@@ -1,48 +1,61 @@
 const projectlist = [
   {
-    title: "Shop Admin Web Apps 🎉",
-    description: "Shop Admin web application ",
+    title: "Oficina container",
+    description: "Servicio de fabricación de oficinas a base de contenedores de metal. ",
     url: "https://github.com/KaisherCode/react-shop-admin",
-    image: "https://images.unsplash.com/photo-1560617544-b4f287789e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2VsdWxhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    image: "https://images.unsplash.com/photo-1529939828339-56039bb75a63?auto=format&fit=crop&q=80&w=1483&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Web Development Async landing page",
+    title: "Habitación de container",
     description:
-      "Async landing page ",
+      "Servicio de fabricación de casas habitacionlaes a base container. ",
     url: "https://async-landing-page.netlify.app/",
-    image: "https://images.unsplash.com/photo-1560617544-b4f287789e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2VsdWxhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    image: "https://images.unsplash.com/photo-1523351964962-1ee5847816c3?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Batata bitcoin Application",
-    description: "Batatabitcoin store is an online store built using Html y Css.",
+    title: "Casa container en playa",
+    description: "Fabricación de casas habitacionales en playa.",
     url: "https://kaishercode.github.io/cursoMobileFirst/",
-    image: "https://images.unsplash.com/photo-1560617544-b4f287789e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2VsdWxhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Landing Page de Platzi Travel",
+    title: "Casa container de campo",
     description:
-      "Maquetación de Platzi Travel utilizando TailwindCss",
+      "Fabricación de casa a base de modulos container.",
     url: "https://kaishercode.github.io/tailwind-3/public/",
-    image: "https://images.unsplash.com/photo-1560617544-b4f287789e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2VsdWxhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    image: "https://images.unsplash.com/photo-1628394029761-acc83a2a08a6?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Shoppi Store App",
-    description: "Shoppi store is an online store built using React.js, Vite.js and Tailwindcss.",
+    title: "Puertas y ventanas",
+    description: "Servicio de fabricación de puertas y ventanas.",
     url: "https://shoppistore.netlify.app/",
-    image: "https://images.unsplash.com/photo-1560617544-b4f287789e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2VsdWxhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    image: "https://images.unsplash.com/photo-1628394029749-ea3dcce4caa6?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Hynkor Sotore",
-    description: "Hynkor Store is a web application built with WordPress CMS and Woocommerce.",
+    title: "Escalera en container",
+    description: "Fabricación de escaleras acopladas a casa container.",
     url: "https://ecommerce.hynkor.com",
-    image: "https://images.unsplash.com/photo-1560617544-b4f287789e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2VsdWxhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    image: "https://images.unsplash.com/photo-1508770044900-7c405a2a7f4b?auto=format&fit=crop&q=80&w=1469&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    title: "Soldadura general",
+    description: "Servicio de soldadura en general, puertas, ventanas, rejas, tijerales y escaleras.",
+    url: "https://ecommerce.hynkor.com",
+    image: "https://images.unsplash.com/photo-1648671921845-895549805092?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    title: "Escalera de fierro",
+    description: "Fabricación de escaleras con tubos rectangulares de fierro.",
+    url: "https://ecommerce.hynkor.com",
+    image: "https://images.unsplash.com/photo-1665399319596-9508b286fb4e?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ]
 const Project = () => {
   return (
-    <section id="project" className="flex flex-col justify-evenly items-center dark:text-white mb-16 ">
-      <h2 className="text-center font-bold text-2xl pt-16 mb-4">Projects Portfolio</h2>
-      <div className="grid lg:grid-cols-3 gap-10 p-6 max-w-screen-lg  ">
+    <section id="project" className="w-full h-auto flex flex-col justify-evenly items-center dark:text-white mb-16 ">
+      <h2 className="text-center font-bold text-2xl pt-16 mb-4">Proyectos más importantes</h2>
+      <p>Estructuras metálicas y fabricamos puertas, ventanas, portones enrollables, rejas, tijerales, escaleras y soldadura en general.</p>
+      <div className="grid lg:grid-cols-4 gap-4 p-6 max-w-screen-lg  ">
         {projectlist.map((project) => (
           <div className=" rounded-lg border shadow-xl hover:border-indigo-500" key={project.title}>
             <div className=" text-center p-4 flex flex-col">
