@@ -36,7 +36,7 @@ const Navbar = () => {
       <ul className="flex gap-8 font-bold text-md">
         <li className=" text-red-700 hover:text-indigo-700 dark:text-white "><a href="#home">Inicio</a></li>
         <li className=" text-red-700 hover:text-indigo-700 dark:text-white "><a href="#about">Nosotros</a></li>
-        <li className=" text-red-700 hover:text-indigo-700 dark:text-white "><a href="#skills">Servicios</a></li>
+        <li className=" text-red-700 hover:text-indigo-700 dark:text-white "><a href="#service">Servicios</a></li>
         <li className=" text-red-700 hover:text-indigo-700 dark:text-white "><a href="#project">Proyectos</a></li>
       </ul>
       <ul className='flex justify-center items-center gap-4'>
