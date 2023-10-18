@@ -7,8 +7,8 @@ import { Footer } from './Components/Footer'
 import './app.css'
 
 const siteProps = {
-name:"Kaisher Code",
-title:"I'm Full Stack Developer",
+name:"Servicios Generales JF",
+title:"Realizamos reparación de contenedores con estructuras modulares.",
 email:"wilson.hch@hynkor.com",
 github:"KaisherCode",
 linkedIn: "freddy-wilson-h-1788289b",
