@@ -1,7 +1,7 @@
 import { Navbar } from './Components/Navbar'
 import { Home } from './Components/Home'
 import { About } from './Components/About'
-import { Skills } from './Components/Skills'
+import { Service } from './Components/Service'
 import { Project } from './Components/Project'
 import { Footer } from './Components/Footer'
 import './app.css'
@@ -23,7 +23,7 @@ export function App() {
       <Navbar />
       <Home name={siteProps.name} title={siteProps.title} linkedIn={siteProps.linkedIn} />
       <About />
-      <Skills />
+      <Service />
       <Project />
       <Footer
         name={siteProps.name}
