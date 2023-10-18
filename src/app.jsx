@@ -9,11 +9,8 @@ import './app.css'
 const siteProps = {
 name:"Servicios Generales JF",
 title:"Realizamos reparación de contenedores con estructuras modulares.",
-email:"wilson.hch@hynkor.com",
-github:"KaisherCode",
-linkedIn: "freddy-wilson-h-1788289b",
-twitter: "https://twitter.com/KaisherCode?t=tBu3OU2HtPPAu8qDRnCKXA&s=09",
-tiktok: "KaisherCode",
+email:"fasabifenazoajuancarlos@gmail.com",
+whatsapp:"923837388",
 }
 
 export function App() {
@@ -28,8 +25,7 @@ export function App() {
       <Footer
         name={siteProps.name}
         email={siteProps.email}
-        github={siteProps.github}
-        linkedIn={siteProps.linkedIn}
+        whatsapp={siteProps.whatsapp}
         />
     </div>
   )
