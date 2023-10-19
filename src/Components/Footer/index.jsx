@@ -19,7 +19,7 @@ const Footer = (props) => {
           </a>
         )}
         {(
-          <a href={`https://api.whatsapp.com/send?phone${whatsapp}`} target='_blank'>
+          <a href={`https://api.whatsapp.com/send?phone=${whatsapp}`} target='_blank'>
             <FaWhatsapp className='w-8 h-8' />
           </a>
         )}
