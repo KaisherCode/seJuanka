@@ -26,7 +26,7 @@ const TabBar = () => {
   }
 
   return (
-      <div className='w-full h-16 fixed flex justify-center items-center space-x-10 pl-16 pr-16 bg-gray-800 text-white p-4 bottom-0  lg:hidden z-10 '>
+      <div className=' h-16 fixed flex justify-center items-center space-x-10 pl-16 pr-16 bg-gray-800 text-white p-4 bottom-0  lg:hidden z-10 '>
         <a href="#home"><HiHome className='w-6 h-6'/></a>
         <a href="#about"><HiUserGroup className='w-6 h-6'/></a>
         <a href="#service"><HiLightBulb className='w-6 h-6'/></a>

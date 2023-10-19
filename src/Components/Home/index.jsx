@@ -3,7 +3,7 @@ import { FaLinkedin, FaArrowCircleDown } from 'react-icons/fa'
 import home from '../../assets/img/oficina-quicornac-3.jpg'
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="w-full lg:min-h-screen lg:flex justify-start lg:space-y-80 dark:text-white">
+    <section id="home" className=" lg:min-h-screen lg:flex justify-start lg:space-y-80 dark:text-white">
       <img
         src={home}
         alt=""

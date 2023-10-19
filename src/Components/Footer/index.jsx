@@ -9,7 +9,7 @@ const Footer = (props) => {
   } = props
 
   return (
-    <footer id='contact' className=" w-screen bg-gray-500 p-10 lg:flex lg:justify-evenly justify-center lg:items-center text-white text-center ">
+    <footer id='contact' className="w-full bg-gray-500 p-10 lg:flex lg:justify-evenly justify-center lg:items-center text-white text-center ">
       <h2 className=' font-bold text-2xl mb-4 '>{name}</h2>
       <p className=' font-light text-lg mb-4'> © Todos los derechos reservados {name}</p>
       <div className="flex gap-3 items-center justify-center mb-10">
