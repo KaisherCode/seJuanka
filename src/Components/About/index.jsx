@@ -12,11 +12,11 @@ const stats = [
 ]
 const About = () => {
   return (
-    <section id="about" className="relative overflow-hidden bg-gray-900 py-24 sm:py-32">
+    <section id="about" className=" relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <img
-        src="https://images.unsplash.com/photo-1548945665-56d2712b4986?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://images.unsplash.com/photo-1652204775379-2b4ace437a2d?auto=format&fit=crop&q=80&w=1631&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt=""
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+        className=" opacity-50 absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
       <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
